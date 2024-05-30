@@ -1,4 +1,4 @@
-public class Test {
+public class Test implements TestInterface {
 	// 자바Doc
 	/**
 	@author ys
@@ -7,5 +7,10 @@ public class Test {
     public static void main(String[] args) {
 		System.out.println("Hello World");
 		// System.out.println("sout");
+	}
+
+	@Override
+	public void test() {
+
 	}
 }
