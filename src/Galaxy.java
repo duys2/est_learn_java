@@ -14,5 +14,6 @@ public class Galaxy implements Phone {
     Phone myPhone = new Galaxy();
     myPhone.call();
     myPhone.name();
+    (new Galaxy()).name();
   }
 }
