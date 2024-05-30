@@ -62,12 +62,14 @@ replay_pid*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/
 
 # AWS User-specific
 .idea/**/aws.xml
 
 # Generated files
 .idea/**/contentModel.xml
+est_java.iml
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
