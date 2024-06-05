@@ -119,23 +119,46 @@ public class ScannerLearn {
     프로그램은 사용자가 입력한 숫자가 무작위로 생성된 숫자보다 높은지, 낮은지, 아니면 정확히 맞는지를 알려줍니다.
     사용자가 정확한 숫자를 맞출 때까지 이 과정을 반복합니다. 숫자를 맞추면 "정답입니다!"라고 출력하고 게임을 종료합니다.
     */
-    Scanner scanner = new Scanner(System.in);
-    int randomNum = (new Random()).nextInt(100) + 1;
+    // Scanner scanner = new Scanner(System.in);
+    // int randomNum = (new Random()).nextInt(100) + 1;
+    //
+    // while (true) {
+    //   System.out.print("숫자을 입력하세요: ");
+    //   int num = scanner.nextInt();
+    //   scanner.nextLine();
+    //
+    //   if (num > randomNum) {
+    //     System.out.println("숫자가 더 큽니다!");
+    //   } else if (num < randomNum) {
+    //     System.out.println("숫자가 더 작습니다!");
+    //   } else break;
+    // }
+    //
+    // System.out.println("정답입니다!");
+    //
+    // scanner.close();
 
-    while (true) {
-      System.out.print("숫자을 입력하세요: ");
-      int num = scanner.nextInt();
-      scanner.nextLine();
-
-      if (num > randomNum) {
-        System.out.println("숫자가 더 큽니다!");
-      } else if (num < randomNum) {
-        System.out.println("숫자가 더 작습니다!");
-      } else break;
-    }
-
-    System.out.println("정답입니다!");
-
-    scanner.close();
+    // Scanner sc = new Scanner(System.in);
+    //
+    // String title, userName, userPhoneNumber;
+    // int people;
+    //
+    // System.out.println("영화 제목: ");
+    // title = sc.next();
+    // System.out.println("관람 인원 수: ");
+    // people = sc.nextInt();
+    // System.out.println("예매자 성함: ");
+    // userName = sc.next();
+    // System.out.println("예매자 전화번호: ");
+    // userPhoneNumber = sc.next();
+    //
+    // System.out.println("==== 영화 티겟 예매 정보 ====");
+    // System.out.println("영화 제목: " + title);
+    // System.out.println("관람 인원: " + people);
+    // System.out.println("예매자 이름: " + userName);
+    // System.out.println("예매자 전화번호: " + userPhoneNumber);
+    // System.out.println("총 결제 금액: " + people * 10000);
+    //
+    // sc.close();
   }
 }
