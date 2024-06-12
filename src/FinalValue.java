@@ -1,8 +1,7 @@
 public class FinalValue {
 	public static void main(String[] args) {
-		Person3 person = new Person3("홍길동");
-
-		person.introduce();
+		// Person3 person = new Person3("홍길동");
+		// person.introduce();
 	}
 }
 

@@ -1,3 +1,5 @@
+package p1;
+
 public class Student {
   int level;
 

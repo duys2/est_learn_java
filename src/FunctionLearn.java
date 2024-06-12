@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import p1.Person;
+
 public class FunctionLearn {
   public static void main(String[] args) {
     /*
@@ -16,9 +18,9 @@ public class FunctionLearn {
     */
 
     Person ys = new Person("유석", 01000000001, 26, 24000);
-    // Person cs = new Person("철수", 01000000002, 24, 136000);
-    // Person yh = new Person("영희", 01000000003, 29, 925000);
-    // Person mg = new Person("맹구", 01000000004, 20, 5000);
+    // p1.Person cs = new p1.Person("철수", 01000000002, 24, 136000);
+    // p1.Person yh = new p1.Person("영희", 01000000003, 29, 925000);
+    // p1.Person mg = new p1.Person("맹구", 01000000004, 20, 5000);
     //
     // ys.sayHello();
     // cs.sayHello();
@@ -27,7 +29,7 @@ public class FunctionLearn {
     //
     // ys.sayMoney();
 
-    // Student student = new Student();
+    // p1.Student student = new p1.Student();
     //
     // ys.teaching(student);
     // ys.cheating(student);

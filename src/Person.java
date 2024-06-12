@@ -1,29 +1,45 @@
+// 접근 제한자 학습
+
 public class Person {
-  String name;
-  int phoneNumber;
-  int age;
-  int money;
 
-  public Person(String name, int phoneNumber, int age, int money) {
-    this.name = name;
-    this.phoneNumber = phoneNumber;
-    this.age = age;
-    this.money = money;
-  }
+	private String name2;
+	String name;
+	int age;
+	final String test;
+	int gold = 999999999;
+	static final double PI = 3.14159;
 
-  public void sayHello() {
-    System.out.println("My name is " + name + " and I am " + age + " years old.");
-  }
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+		this.test = "123";
+	}
 
-  public void sayMoney() {
-    System.out.println("내가 가지고 있는 돈은 " + money * 10000 + "원이야!");
-  }
+	private String checkAmount(int amount) {
+		if (amount > this.gold) {
+			return "요청하신 금액이 너무 큽니다.";
+		}
+		return "정상처리되었습니다.";
+	}
 
-  public void teaching(Student student) { // 파라미터로 Student 클래스를 받음
-    student.levelUp();
-  }
+	public String deposit(int amount) {
+		return checkAmount(amount);
 
-  public void cheating(Student student) {
-    student.levelDown();
-  }
+	}
+
+	public static void say() {
+		System.out.println("good");
+	}
+
+	public void sayHello() {
+		System.out.println("Hello my name is " + this.name);
+	}
+
+	public void introduce() {
+		System.out.println("I am " + this.age + " years old.");
+	}
+
+	protected void testMethod() {
+		System.out.println("test");
+	}
 }
