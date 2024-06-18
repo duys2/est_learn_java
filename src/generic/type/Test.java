@@ -8,5 +8,6 @@ public class Test {
 		// int i = integerBox.get();
 
 		Box<Integer> boxing = Util.boxing(21);
+		System.out.println(boxing);
 	}
 }

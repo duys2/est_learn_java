@@ -1,4 +1,4 @@
-	package generic.type;
+package generic.type;
 
 public class Box<T> {
 	private T t;
