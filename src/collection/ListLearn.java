@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Main {
+public class ListLearn {
 	public static void main(String[] args) {
 		// List<String> arrayList = new ArrayList<>();
 
